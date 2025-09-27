@@ -118,7 +118,7 @@ a { text-decoration: none; color: inherit; }
 
 
 
-@media (max-width: 1230px) {
+@media (max-width: 1024px) {
   .hero {
     height: 500px;
     background: url('../image/Screenshot_27-9-2025_33739_.jpeg') no-repeat center center;
@@ -126,11 +126,98 @@ a { text-decoration: none; color: inherit; }
   }
   .header-inner{
     width: 100%;
+    padding: 12px 40px;
   }
  .header-inner.nav ul{
   border: 1px solid blue;
  }
+
+  .nav ul {
+    gap: 25px;
+  }
+  .nav a {
+    font-size: 18px;
+  }
+  .icons {
+    gap: 20px;
+  }
+  .hero {
+    height: 650px;
+  }
 }
+/* ---------- Laptop/Desktop ≥1024px ---------- */
+@media (min-width: 1024px) {
+  .header-inner {
+    padding: 12px 40px;
+  }
+  .nav ul {
+    gap: 25px;
+  }
+  .nav a {
+    font-size: 18px;
+  }
+  .icons {
+    gap: 20px;
+  }
+  .hero {
+    height: 650px;
+  }
+}
+
+/* ---------- Tablet ≥768px and <1024px ---------- */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-inner {
+    padding: 10px 20px;
+  }
+  .nav ul {
+    gap: 15px;
+  }
+  .nav a {
+    font-size: 16px;
+  }
+  .icons {
+    gap: 15px;
+  }
+  .cart {
+    font-size: 13px;
+  }
+  .logo img {
+    height: 65px;
+    width: auto;
+  }
+  .hero {
+    height: 500px;
+    background: url('../image/Screenshot_27-9-2025_33739_.jpeg') no-repeat center center;
+    background-size: cover;
+  }
+}
+
+
+@media (max-width: 767px) {
+  header {
+    display: none; 
+  }
+  .top {
+    display: block; 
+  }
+  .header-container {
+    padding: 0 15px;
+  }
+  .logo img {
+    max-height: 55px;
+  }
+  .header-icons .icon {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  .hero {
+    height: 450px;
+    background: url('../image/Screenshot_27-9-2025_42935_2.jpeg') no-repeat center center;
+    background-size: cover;
+  }
+}
+
 
 @media (max-width: 768px) {
   header{
@@ -231,8 +318,23 @@ a { text-decoration: none; color: inherit; }
 }
 
   .hero {
-    height: 650px;
-    background: url('../image/Screenshot_27-9-2025_42935_2.jpeg') no-repeat center center;
+    height: 750px;
+    width: 100%;
+    background: url('../image/Screenshot_27-9-2025_35849_i.jpeg') no-repeat center center;
     background-size: cover;
   }
+  .header-container {
+    padding: 0 15px;
+  }
+  .logo img {
+    max-height: 55px;
+  }
+  .header-icons .icon {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+ 
 }
+
+
