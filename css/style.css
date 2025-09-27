@@ -221,12 +221,11 @@ a { text-decoration: none; color: inherit; }
   }
 
   .hero {
-    height: 750px;
-    background: url('../image/Screenshot_27-9-2025_573_.jpeg') no-repeat center center;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #fff;
+  height: 760px;
+  background: url('../image/Screenshot_27-9-2025_573_.jpeg') center center no-repeat;
+  background-size: contain;    
+  background-color: #fff;      
+
 
 
   }
