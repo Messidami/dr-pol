@@ -231,7 +231,7 @@ a { text-decoration: none; color: inherit; }
 @media (max-width: 480px) {
   .hero {
     height: auto;               
-    min-height: 500px;         
+    min-height: 650px;         
     background-size: contain;  
     background-position: top center; 
   }
