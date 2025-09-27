@@ -220,13 +220,21 @@ a { text-decoration: none; color: inherit; }
     font-size: 16px;
   }
 
-  .hero {
-  height: 760px;
+ .hero {
+  height: 750px;
   background: url('../image/Screenshot_27-9-2025_573_.jpeg') center center no-repeat;
-  background-size: contain;    
-  background-color: #fff;      
+  background-size: contain;
+  background-color: #fff;
+}
 
 
-
+@media (max-width: 480px) {
+  .hero {
+    height: auto;               
+    min-height: 500px;         
+    background-size: contain;  
+    background-position: top center; 
   }
+}
+
 }
