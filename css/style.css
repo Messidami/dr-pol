@@ -125,7 +125,6 @@ a { text-decoration: none; color: inherit; }
     background-size: cover;
   }
   .header-inner{
-    font-size: 18px;
     width: 100%;
   }
  .header-inner.nav ul{
@@ -232,8 +231,8 @@ a { text-decoration: none; color: inherit; }
 }
 
   .hero {
-    height: 600px;
-    background: url('../image/Screenshot_27-9-2025_25624_2.jpeg') no-repeat center center;
+    height: 650px;
+    background: url('../image/Screenshot_27-9-2025_35849_i.jpeg') no-repeat center center;
     background-size: cover;
   }
 }
