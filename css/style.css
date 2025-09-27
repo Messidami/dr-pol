@@ -221,8 +221,13 @@ a { text-decoration: none; color: inherit; }
   }
 
   .hero {
-    height: 850px;
-    background: url('../image/Screenshot_27-9-2025_42935_2.jpeg') no-repeat center center;
-    background-size: cover;
+    height: 750px;
+    background: url('../image/Screenshot_27-9-2025_573_.jpeg') no-repeat center center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+
+
   }
 }
