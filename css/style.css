@@ -109,12 +109,12 @@ a { text-decoration: none; color: inherit; }
 }
 
 .quote-container {
-  max-width: 800px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .quote-section h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   color: #4a2f2f;
   margin-bottom: 10px;
@@ -122,7 +122,9 @@ a { text-decoration: none; color: inherit; }
 }
 
 .subtitle {
-  font-size: 16px;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 25px;
   color: #333;
   margin-bottom: 40px;
 }
@@ -134,14 +136,19 @@ a { text-decoration: none; color: inherit; }
   margin: 20px 0;
 }
 
-/* Signature */
+.animals img{
+  width: 450px;
+  height: 300px;
+}
+
+
 .signature img {
-  max-width: 250px;
-  height: auto;
+  max-width: 420px;
+  height: 190px;
   margin: 20px 0;
 }
 
-/* Button */
+
 .btn {
   display: inline-block;
   background: #2e657c;
@@ -159,8 +166,8 @@ a { text-decoration: none; color: inherit; }
 }
 
 .badge img {
-  max-width: 180px;
-  height: auto;
+  width: 220px;
+  height: 220px;
   margin: 30px auto;
 }
 
@@ -312,23 +319,30 @@ a { text-decoration: none; color: inherit; }
   }
 
   .quote-section h2 {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .subtitle {
-    font-size: 14px;
+    font-size: 20px;
+  }
+  .animals img{
+    width: 90px;
+    height: 55px;
   }
 
   .quote {
-    font-size: 16px;
+    font-size: 25px;
+    width: 100%;
   }
 
   .signature img {
     max-width: 200px;
+    height: 55px;
   }
 
   .badge img {
-    max-width: 140px;
+    width: 275px;
+    height: 275px;
   }
 }
 
