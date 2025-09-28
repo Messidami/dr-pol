@@ -14,14 +14,13 @@
 <body>
 
 
- <div class="top">
-    <div class="header-container">
+<div class="top" id="navbar">
+  <div class="header-container">
 
     <div class="logo">
       <img src="./image/DR_POL_LOGO_SECONDARY_Footer.png" alt="Dr. Pol Logo">
     </div>
 
-   
     <div class="header-icons">
       <a href="#" class="icon search"><i class="fas fa-search"></i></a>
       <a href="#" class="icon cart"><i class="fas fa-shopping-bag"></i><span class="cart-count">0</span></a>
@@ -29,28 +28,28 @@
     </div>
   </div>
 
-
   <nav class="mobile-menu" id="mobileMenu">
-  <button class="close-btn" id="closeMenu"><i class="fas fa-times"></i></button>
-  <ul>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Shows</a></li>
-    <li><a href="#">Explore</a></li>
-    <li><a href="#">Vote</a></li>
-    <li><a href="#">International</a></li>
-    <li><a href="#">Shop</a></li>
-    <li><a href="#">Dr. Pol Care</a></li>
-    <li><a href="#">My Account</a></li>
-    <li>
-      <select>
-        <option>Select Language</option>
-        <option>English</option>
-        <option>Spanish</option>
-      </select>
-    </li>
-  </ul>
-</nav>
- </div>
+    <button class="close-btn" id="closeMenu"><i class="fas fa-times"></i></button>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Shows</a></li>
+      <li><a href="#">Explore</a></li>
+      <li><a href="#">Vote</a></li>
+      <li><a href="#">International</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Dr. Pol Care</a></li>
+      <li><a href="#">My Account</a></li>
+      <li>
+        <select>
+          <option>Select Language</option>
+          <option>English</option>
+          <option>Spanish</option>
+        </select>
+      </li>
+    </ul>
+  </nav>
+</div>
+
 
 
   
@@ -130,6 +129,7 @@
   </div>
 </section>
 
+<div class="bar"></div>
 <div class="body2">
   <section class="drpol-container">
     <h1 class="main-title">Experience the Dr. Pol Difference for Your Pet</h1>
@@ -177,6 +177,7 @@
 
 
 <script>
+  // --- Mobile menu toggle ---
   const menuToggle = document.getElementById('menuToggle');
   const mobileMenu = document.getElementById('mobileMenu');
   const closeMenu = document.getElementById('closeMenu');
@@ -188,7 +189,33 @@
   closeMenu.addEventListener('click', () => {
     mobileMenu.classList.remove('active');
   });
+
+  // --- Animated nav ---
+  let lastScrollTop = 0;
+  const navbar = document.getElementById('navbar'); // <div id="navbar" class="top">...</div>
+
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    // always show at the very top
+    if (scrollTop <= 0) {
+      navbar.classList.remove('hide'); // force visible at top
+      lastScrollTop = 0;
+      return;
+    }
+
+    if (scrollTop > lastScrollTop) {
+      // scrolling down → hide nav
+      navbar.classList.add('hide');
+    } else {
+      // scrolling up → show nav
+      navbar.classList.remove('hide');
+    }
+
+    lastScrollTop = scrollTop;
+  });
 </script>
+
 
 
 
