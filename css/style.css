@@ -347,8 +347,8 @@ a { text-decoration: none; color: inherit; }
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: top center; 
-     /* aspect-ratio: 0/0; */
-     min-height: 491.4px;
+     min-height: 492px;
+     min-width: 400px;
      width: 100%;
   }
 }
