@@ -340,18 +340,17 @@ a { text-decoration: none; color: inherit; }
   background-image: url('images/second-banner-desktop.jpg'); /* default desktop */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 405px) {
   .hero-banner {
-    margin-top: 0;
-    background-image: url('../image/Screenshot_29-9-2025_2050.jpeg');
-    background-size: contain; 
-    background-repeat: no-repeat; 
-    background-position: top center; 
-     min-height: 551.5px;
-     min-width: 400px;
-     width: 100%;
+    background-image: url('../image/your-image.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 1159/1342; 
+    width: 100%;
   }
 }
+
 
 
 
