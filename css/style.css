@@ -247,10 +247,135 @@ a { text-decoration: none; color: inherit; }
   background-color: #1e3545;
 }
 
+/* push content below fixed nav */
+.hero-banner {
+  margin-top: 80px; /* adjust to your header height */
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text section */
+.second-hero {
+  background-color: #0b0e18;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.second-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.second-container .image {
+  flex: 1 1 300px;
+}
+
+.second-container .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.second-container .text {
+  flex: 1 1 400px;
+}
+
+.second-container h5 {
+  font-size: 14px;
+  color: #9ea4b2;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.second-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.second-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #315a6e;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #274552;
+}
+
+
+.hero-banner {
+  width: 100%;
+  min-height: 750px; 
+  background-size: cover;
+  background-position: center;
+  background-image: url('../image/Screenshot_29-9-2025_15954_la.jpeg'); /* default desktop */
+}
+
+.second-hero {
+  width: 100%;
+  min-height: 500px; 
+  background-size: cover;
+  background-position: center;
+  background-image: url('images/second-banner-desktop.jpg'); /* default desktop */
+}
+
+@media (max-width: 480px){
+   .hero-banner {
+    background-image: url('../image/tdp-how-to-view-shows-website-banner-2024.jpg.optimal.jpg');
+    
+  }
+}
 
 
 
-/* ========== TABLET VIEW (≤1230px) ========== */
+@media (max-width: 767px) {
+  .hero-banner {
+    background-image: url('../image/Screenshot_29-9-2025_2255_ph1.jpeg');
+  }
+  .second-hero {
+    background-image: url('images/second-banner-phone.jpg');
+   
+  }
+}
+
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .hero-banner {
+    background-image: url('../image/Screenshot_29-9-2025_2050_ta.jpeg');
+  }
+  .second-hero {
+    background-image: url('images/second-banner-laptop.jpg');
+  }
+}
+
+
+
+
+
+
+
+
 @media (max-width: 1230px) {
   .hero {
     height: 500px;
