@@ -334,10 +334,10 @@ a { text-decoration: none; color: inherit; }
 
 .second-hero {
   width: 100%;
-  min-height: 500px; 
+  min-height: 800px; 
   background-size: cover;
   background-position: center;
-  background-image: url('images/second-banner-desktop.jpg'); /* default desktop */
+  background-image: url('../image/Screenshot_29-9-2025_125914_la.jpeg'); /* default desktop */
 }
 
 @media (max-width: 405px) {
@@ -347,6 +347,14 @@ a { text-decoration: none; color: inherit; }
     background-repeat: no-repeat;
     background-position: top center;
     aspect-ratio: 1159/1342; 
+    width: 100%;
+  }
+  .second-hero {
+    background-image: url('../image/Screenshot_29-9-2025_13953.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 910/1002; 
     width: 100%;
   }
 }
@@ -360,7 +368,7 @@ a { text-decoration: none; color: inherit; }
     background-image: url('../image/Screenshot_29-9-2025_2255_ph1.jpeg');
   }
   .second-hero {
-    background-image: url('images/second-banner-phone.jpg');
+    background-image: url('../image/Screenshot_29-9-2025_13221.jpeg');
    
   }
 }
@@ -371,7 +379,7 @@ a { text-decoration: none; color: inherit; }
     background-image: url('../image/Screenshot_29-9-2025_2050_ta.jpeg');
   }
   .second-hero {
-    background-image: url('images/second-banner-laptop.jpg');
+    background-image: url('../image/Screenshot_29-9-2025_13036_.jpeg');
   }
 }
 
