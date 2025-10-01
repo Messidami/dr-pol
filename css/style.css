@@ -330,7 +330,7 @@ a { text-decoration: none; color: inherit; }
   min-height: 750px; 
   background-size: cover;
   background-position: center;
-  background-image: url('../image/Screenshot_29-9-2025_15954_la.jpeg'); /* default desktop */
+  background-image: url('../image/Screenshot_29-9-2025_15954_la.jpeg'); 
 }
 
 
@@ -339,9 +339,15 @@ a { text-decoration: none; color: inherit; }
   min-height: 800px; 
   background-size: cover;
   background-position: center;
-  background-image: url('../image/Screenshot_29-9-2025_125914_la.jpeg'); /* default desktop */
+  background-image: url('../image/Screenshot_29-9-2025_125914_la.jpeg'); 
 }
-
+.third-hero{
+  width: 100%;
+  min-height: 750px; 
+  background-size: cover;
+  background-position: center;
+  background-image: url('../image/Screenshot_30-9-2025_164532_lap.jpeg');
+}
 
 @media (max-width: 405px) {
   .hero-banner {
@@ -358,6 +364,14 @@ a { text-decoration: none; color: inherit; }
     background-position: center;
     min-height: 100vh;        
   }
+  .third-hero{
+    background-image: url('../image/Screenshot_29-9-2025_13953.jpeg');
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;    
+
+  }
 }
 
 
@@ -368,6 +382,9 @@ a { text-decoration: none; color: inherit; }
   .second-hero {
     background-image: url('../image/Screenshot_29-9-2025_13221.jpeg');
   }
+  .third-hero{
+    background-image: url('../image/Screenshot_30-9-2025_165952_phone.jpeg');
+  }
 }
 
 
@@ -377,6 +394,9 @@ a { text-decoration: none; color: inherit; }
   }
   .second-hero {
     background-image: url('../image/Screenshot_29-9-2025_13036_.jpeg');
+  }
+   .third-hero{
+    background-image: url('../image/Screenshot_30-9-2025_165816_tablet.jpeg');
   }
 }
 
