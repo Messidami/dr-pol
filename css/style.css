@@ -349,6 +349,43 @@ a { text-decoration: none; color: inherit; }
   background-image: url('../image/Screenshot_30-9-2025_164532_lap.jpeg');
 }
 
+
+
+
+.cover{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #2e4a5f;
+  text-align: center;
+}
+
+.contain {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contain h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.contain img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.cover2{
+  display: none;
+}
+
 @media (max-width: 405px) {
   .hero-banner {
     background-image: url('../image/your-image.jpeg');
@@ -600,6 +637,44 @@ a { text-decoration: none; color: inherit; }
   .main-title {
     font-size: 2.8rem;
   }
+  .cover{
+    display: none;
+  }
+  .cover2{
+  margin: 0;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #2e4a5f;
+  text-align: center;
+}
+
+.contain2 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.contain2 h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.phone-view img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+
+
+
 }
 
 
