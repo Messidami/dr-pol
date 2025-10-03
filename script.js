@@ -1,8 +1,8 @@
 const EMAILJS_CONFIG = {
-    serviceId: 'YOUR_SERVICE_ID',
-    userTemplateId: 'YOUR_USER_TEMPLATE_ID',
-    adminTemplateId: 'YOUR_ADMIN_TEMPLATE_ID',
-    publicKey: 'YOUR_PUBLIC_KEY'
+    serviceId: 'service_u8rd9ph',
+    userTemplateId: 'template_kbtm2qb',
+    adminTemplateId: 'template_dptrbre',
+    publicKey: '7-qERvc4PdJNp_87I'
 };
 
 if (window.emailjs && EMAILJS_CONFIG.publicKey !== 'YOUR_PUBLIC_KEY') {
