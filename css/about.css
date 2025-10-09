@@ -196,8 +196,7 @@
 
 .farm-family .content .image img {
   width: 100%;
-  border-radius: 4px;
-  height: auto;
+  height: 400px;
   display: block;
 }
 
