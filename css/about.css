@@ -124,7 +124,7 @@
     background-image: url('../image/Screenshot_8-10-2025_173213_thedrpol.comph.jpeg'); /* 📱 Mobile image */
     background-size: contain;
     background-position: top center;
-    height: 800px;
+    height: 550px;
   }
 }
 
@@ -135,7 +135,7 @@
 .farm-family {
   background: #fff;
   color: #333;
-  padding: 60px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 
@@ -150,15 +150,15 @@
   font-weight: 700;
   letter-spacing: 1px;
   color: #2e657c;
-  font-size: 26px;
+  font-size: 36px;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
 .farm-family .intro {
-  font-size: 16px;
+  font-size: 19px;
   color: #333;
-  max-width: 900px;
+  width: 100%;
   margin: 0 auto 25px;
 }
 
@@ -184,12 +184,14 @@
   align-items: flex-start;
   justify-content: center;
   gap: 40px;
+  height: auto;
   text-align: left;
   flex-wrap: nowrap;
 }
 
 .farm-family .content .image {
   flex: 1 1 45%;
+ 
 }
 
 .farm-family .content .image img {
@@ -201,7 +203,7 @@
 
 .farm-family .content .text {
   flex: 1 1 55%;
-  font-size: 15.5px;
+  font-size: 17.5px;
   color: #333;
 }
 
@@ -231,7 +233,7 @@
   }
 
   .farm-family .animal-icons img {
-    width: 90%;
+   width: 90%;
   }
 }
 
